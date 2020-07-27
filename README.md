@@ -18,3 +18,11 @@ I created the code using Typescript.
 You may look how it works by clicking the link below.
 
 [Checkout Animation Microinteraction for E-Commerce](https://codepen.io/takaneichinose/full/XWXOGeq)
+
+### Testing on local
+
+To test this animation on local computer, NodeJS is required to be installed in your device.
+
+If you have NodeJS on your device, just run the command below at the same directory as the project
+
+``` npm install gsap ```
