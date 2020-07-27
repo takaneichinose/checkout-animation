@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  background-color: #848484;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.btn-checkout {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #424242;
+  width: 280px;
+  height: 120px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.4);
+}
+
+.truck {
+  background-image: url("https://assets.codepen.io/430361/truck.svg");
+  width: 160px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 80px);
+  opacity: 0;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.75));
+}
+
+.parcel {
+  background-color: #ffbc47;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  bottom: calc(50% - 50px);
+  left: calc(50% - 15px);
+  opacity: 0;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.75));
+}
+.parcel > span {
+  content: "";
+  background-color: #ffbc47;
+  width: 15px;
+  height: 3px;
+  position: absolute;
+  top: -3px;
+}
+.parcel > span:first-child {
+  left: 0;
+  transform-origin: bottom left;
+}
+.parcel > span:last-child {
+  right: 0;
+  transform-origin: bottom right;
+}
+
+.checkout,
+.thank-you {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+}
+
+.thank-you {
+  opacity: 0;
+}
