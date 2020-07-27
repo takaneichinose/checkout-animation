@@ -26,3 +26,7 @@ To test this animation on local computer, NodeJS is required to be installed in 
 If you have NodeJS on your device, just run the command below at the same directory as the project
 
 ``` npm install gsap ```
+
+More information about GreenSock
+
+[GreenSock](https://greensock.com/)
